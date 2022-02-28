@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 656px;
+}
+
+header{
+    background-color: white;
+    /* position: fixed; */
+    height: 117px;
+    display: flex;
+    width: 100%;
+    /* z-index: 2px; */
+    /* top: 0; */
+}
+
+header img{
+    margin-left: 35px;
+    height: 117px;
+    width: 84%;
+}
+
+header h1{
+    font-family: 'Rampart One', cursive;
+    padding-left: 83px;
+    font-size: 78px;
+}
+
+#banner img{
+    box-sizing: border-box;
+    height: 498px;
+    width: 100%;
+}
+
+nav{
+    background-color: lightgray;
+    height: 50px;
+}
+
+ul{
+    justify-content: space-around;
+    display: flex;
+}
+
+li{
+    padding-right: 88px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+form{
+    margin-top: 15px;
+}
+
+form input{
+    padding: 1px;
+}
+
+#add img{
+    margin-left: 600px;
+    margin-top: 13px;
+    height: 250px;
+    width: 50%;
+}
+
+#add p{
+    margin-bottom: 50px;
+    position: absolute;
+    padding-top: 17px;
+    font-size: 38px;
+    height: 231px;
+    top: 678px;
+    width: 25%;
+    left: 0px;
+}
+
+a{
+    font-size: 44px;
+    color: red;
+}
+
+hr{
+    margin-top: 40px;
+    color: black;
+    
+}
+
+.contaner{
+    background-color: #e9e5e5;
+    margin-top: 26px ;
+    display: flex;
+}
+
+.contaner img{
+    height: 277px;
+    width: 124%;
+}
+
+.heading{
+   text-align: center;
+   font-family: 'Rampart One', cursive;
+   margin-top: 28px;
+   font-size: 20px;
+}
+
+.section{
+    font-family: 'Parisienne', cursive;
+    padding-left: 111px;
+    margin-left: 178px;
+    padding-top: 31px;
+    font-size: 19px;
+}
+
+.contaners{
+    background-color: #e9e5e5;
+    margin-top: 26px ;
+    justify-content: space-around;
+    display: flex;
+}
+
+.contaners img{
+    height: 338px;
+    width: 100%;
+}
+
+.sections{
+    font-family: 'Parisienne', cursive;
+    /* padding-left: 111px; */
+    margin-left: 55px;
+    padding-top: 31px;
+    font-size: 19px;
+}
+
+footer{
+    background-color: #051120;
+    color: white;
+    height: 100px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer img {
+    border-radius: 90%;
+    width: 47px;
+    margin-left: 34pc;
+}
